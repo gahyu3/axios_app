@@ -1,0 +1,20 @@
+current directory: /Users/ishiihyuga/trial/tourbo_rails/vendor/bundle/ruby/3.2.0/gems/strscan-3.1.0/ext/strscan
+/Users/ishiihyuga/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+checking for rb_reg_onig_match() in ruby.h... no
+creating Makefile
+
+current directory: /Users/ishiihyuga/trial/tourbo_rails/vendor/bundle/ruby/3.2.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240716-57801-dnd306 sitelibdir\=./.gem.20240716-57801-dnd306 clean
+
+current directory: /Users/ishiihyuga/trial/tourbo_rails/vendor/bundle/ruby/3.2.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240716-57801-dnd306 sitelibdir\=./.gem.20240716-57801-dnd306
+compiling strscan.c
+linking shared-object strscan.bundle
+
+current directory: /Users/ishiihyuga/trial/tourbo_rails/vendor/bundle/ruby/3.2.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240716-57801-dnd306 sitelibdir\=./.gem.20240716-57801-dnd306 install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20240716-57801-dnd306
+
+current directory: /Users/ishiihyuga/trial/tourbo_rails/vendor/bundle/ruby/3.2.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240716-57801-dnd306 sitelibdir\=./.gem.20240716-57801-dnd306 clean
