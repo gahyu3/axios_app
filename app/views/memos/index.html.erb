@@ -1,21 +1,11 @@
 <p style="color: green"><%= notice %></p>
 
-<h1 data-btn-target="github">hyuga</h1>
+<h1 data-btn-target="github">yes_or_no</h1>
 
-<div data-controller="btn">
-  <div class="btn btn-primary m-5"       data-btn-target="btn" data-action="click->btn#change_color click->btn#github">
+<div data-controller="axios">
+  <div class="btn btn-primary m-5"  data-action="click->axios#yes_or_no">
   ボタン
   </div>
+  <div data-axios-target="answer" class="m-5">ここに表示されます</div>
+  <img data-axios-target="image" alt="Yes or No image" class="m-5" src="" />
 </div>
-
-
-<div id="memos">
-  <% @memos.each do |memo| %>
-    <%= render memo %>
-    <p>
-      <%= link_to "Show this memo", memo %>
-    </p>
-  <% end %>
-</div>
-
-<%= link_to "New memo", new_memo_path %>
